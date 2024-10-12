@@ -12,14 +12,19 @@ Spidey is an AI-powered chatbot designed to provide mental health and emotional 
 - Clear chat history functionality.
 - Toggle between Bright and Dark themes.
 
-##Dependencies
+## Dependencies
+
 Install the following Node.js packages using npm:
 
-bash
-Copy code
-npm install express
-npm install dotenv
-npm install axios
-These packages are used for handling server-side logic, managing environment variables, and making API requests to Google’s Gemini AI API.
+```bash
+npm install express dotenv axios
+
+
+
+These packages serve the following purposes:
+
+express: A web framework for Node.js that simplifies server-side logic and routing.
+dotenv: A module that loads environment variables from a .env file into process.env, helping to manage sensitive information like API keys.
+axios: A promise-based HTTP client for making API requests, which is used to interact with Google’s Gemini AI API.
 
 
