@@ -19,7 +19,3 @@ Install the following Node.js packages using npm:
 ```bash
 npm install express dotenv axios
 
-
-
-
-
