@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 // Enable CORS for your specific frontend URL
 app.use(cors({
-  origin: 'https://mindspaceai-srushti6226s-projects.vercel.app/' /
+  origin: 'https://mindspaceai.vercel.app' 
 }));
 
 // Initialize the Google Generative AI with your API key
@@ -21,7 +21,7 @@ app.use(express.json());
 // Configure the generative model
 const model = genAI.getGenerativeModel({
   model: "gemini-1.5-flash",
-  systemInstruction: "You are Spidey, a friendly neighborhood therapist. Keep it fun, casual, and relatable, like the Spiderman everyone loves, while still giving helpful advice."
+  systemInstruction:  "You are Spidey, a friendly neighborhood therapist. Keep it fun, casual, and relatable, like the Spiderman everyone loves, while still giving helpful advice."
 });
 
 // Endpoint to handle chat requests
